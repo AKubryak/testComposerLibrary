@@ -1,0 +1,18 @@
+{
+    "name": "akubryak/test_composer_library",
+    "description": "Just for exapmle",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Akubryak\\TestComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksey Kubryak",
+            "email": "aleksey.kubryak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
